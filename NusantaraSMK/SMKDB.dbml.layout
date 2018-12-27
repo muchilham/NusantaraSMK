@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 17.25, 13.375" name="SMKDB">
+  <DataContextMoniker Name="/SMKDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="b0a7696b-e20a-4613-a30f-3892e5d74cc0" absoluteBounds="3.5, 1.75, 2, 1.0016910807291668">
+      <DataClassMoniker Name="/SMKDBDataContext/tbl_Animasi" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c1f82b72-ea38-4d66-83ba-43b9b8aa1556" absoluteBounds="3.515, 2.21, 1.9700000000000002, 0.44169108072916669" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fa2b8af4-743c-40dd-a990-bd7fa826eb3b" absoluteBounds="3.5, 3.5, 2, 1.0016910807291666">
+      <DataClassMoniker Name="/SMKDBDataContext/tbl_Tkj" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bddbdded-ae50-4d53-9646-e3a454c3f8d9" absoluteBounds="3.515, 3.96, 1.9700000000000002, 0.44169108072916669" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1857eb94-0615-4278-ad03-2170fd50d2b2" absoluteBounds="12.25, 3, 2, 2.9247054036458326">
+      <DataClassMoniker Name="/SMKDBDataContext/tbl_CalonSiswa" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9b2390cf-fc36-4132-84c1-e81cf70899ec" absoluteBounds="12.265, 3.46, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fe4f234a-1235-4f51-b73c-0bd9adcda1c0" absoluteBounds="6.75, 8.375, 2, 1.0016910807291666">
+      <DataClassMoniker Name="/SMKDBDataContext/tbl_Guru" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7e378aa0-8915-45dc-af06-356cc04b946c" absoluteBounds="6.765, 8.835, 1.9700000000000002, 0.44169108072916669" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="577b70a1-0f8c-4749-8747-fc16d378e930" absoluteBounds="0.75, 9.375, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/SMKDBDataContext/tbl_Informasi" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d6a21dd1-53b9-4f66-9197-a47f657b6b1b" absoluteBounds="0.765, 9.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6c27d337-9efa-4200-aa91-f99d57885bdb" absoluteBounds="9.5, 5.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SMKDBDataContext/tbl_Jadwal" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bd06a482-4908-4685-bdb7-0a87dfcf658b" absoluteBounds="9.515, 6.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6dc40198-3bb0-4864-a227-6b40e84b02ea" absoluteBounds="9.5, 0.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/SMKDBDataContext/tbl_Jawaban" />
+      <nestedChildShapes>
+        <elementListCompartment Id="421fdc51-61bb-4e46-b78d-1ba9efc71c95" absoluteBounds="9.515, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0fcdf8c6-5b28-48f5-9107-7730bbc29f32" absoluteBounds="0.75, 4, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/SMKDBDataContext/tbl_Jurusan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3b0b82fe-e9b0-41a2-9241-7dbff45e6ffe" absoluteBounds="0.765, 4.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f95c242d-68ed-4d5a-bc53-fc15212b7969" absoluteBounds="9.5, 3.875, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/SMKDBDataContext/tbl_Nilai" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c111359a-d0c2-4d30-8f90-3a7fe31493a8" absoluteBounds="9.515, 4.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bbda0746-91ef-43af-a436-6dfa3b2c33f2" absoluteBounds="3.5, 5.25, 2, 1.0016910807291666">
+      <DataClassMoniker Name="/SMKDBDataContext/tbl_Otomotif" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4c379f46-a9a0-4d75-a611-3858b6998c0c" absoluteBounds="3.515, 5.71, 1.9700000000000002, 0.44169108072916669" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c4e4ee44-db3c-4f07-919e-45f4f7b04e5e" absoluteBounds="15, 3.5, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/SMKDBDataContext/tbl_Pilihan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e152feb7-a6cb-4431-b97c-78a40f0d75bb" absoluteBounds="15.015, 3.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1b525bd4-d973-4299-b0f1-0a3d53636882" absoluteBounds="3.5, 7, 2, 1.0016910807291657">
+      <DataClassMoniker Name="/SMKDBDataContext/tbl_Rpl" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4618cca9-558c-4ef9-b7c3-639fc8d7b77c" absoluteBounds="3.515, 7.46, 1.9700000000000002, 0.44169108072916669" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="596630f2-f65c-4b12-a053-249c3864f24c" absoluteBounds="12.5, 6.875, 2, 1.5785953776041657">
+      <DataClassMoniker Name="/SMKDBDataContext/tbl_Ruangan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="326c686d-fa01-4172-8878-635a44423c30" absoluteBounds="12.515, 7.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9d44bf75-c2a4-43db-a8e6-15629c736e39" absoluteBounds="6.75, 5, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/SMKDBDataContext/tbl_Soal" />
+      <nestedChildShapes>
+        <elementListCompartment Id="df3f23b7-44ba-44cc-af5b-e10a5a21cb11" absoluteBounds="6.765, 5.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1a820f70-a032-400a-b9c5-16b80ad9adeb" absoluteBounds="3.75, 10.375, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/SMKDBDataContext/tbl_Staf" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ca487bb9-d5da-4beb-8722-c7a7fce4377c" absoluteBounds="3.765, 10.835, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="aa50ba08-544c-40dc-829e-3f01fac9b61c" absoluteBounds="6.75, 10.375, 2, 1.0016910807291666">
+      <DataClassMoniker Name="/SMKDBDataContext/tbl_Staf_Tu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f57b2370-dd7e-4841-9fa6-aef53a73f2e2" absoluteBounds="6.765, 10.835, 1.9700000000000002, 0.44169108072916669" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(11.5 : 1.44314697265625); (13.25 : 1.44314697265625); (13.25 : 3)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SMKDBDataContext/tbl_Jawaban/tbl_Jawaban_tbl_CalonSiswa" />
+      <nodes>
+        <classShapeMoniker Id="6dc40198-3bb0-4864-a227-6b40e84b02ea" />
+        <classShapeMoniker Id="1857eb94-0615-4278-ad03-2170fd50d2b2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 4); (1.75 : 2.25084554036458); (3.5 : 2.25084554036458)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SMKDBDataContext/tbl_Jurusan/tbl_Jurusan_tbl_Animasi" />
+      <nodes>
+        <classShapeMoniker Id="0fcdf8c6-5b28-48f5-9107-7730bbc29f32" />
+        <classShapeMoniker Id="b0a7696b-e20a-4613-a30f-3892e5d74cc0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.25084554036458); (3.5 : 4.25084554036458)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SMKDBDataContext/tbl_Jurusan/tbl_Jurusan_tbl_Tkj" />
+      <nodes>
+        <classShapeMoniker Id="0fcdf8c6-5b28-48f5-9107-7730bbc29f32" />
+        <classShapeMoniker Id="fa2b8af4-743c-40dd-a990-bd7fa826eb3b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.5 : 4.47199625651042); (12.25 : 4.47199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SMKDBDataContext/tbl_Nilai/tbl_Nilai_tbl_CalonSiswa" />
+      <nodes>
+        <classShapeMoniker Id="f95c242d-68ed-4d5a-bc53-fc15212b7969" />
+        <classShapeMoniker Id="1857eb94-0615-4278-ad03-2170fd50d2b2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 5.51044840494792); (3.5 : 5.51044840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SMKDBDataContext/tbl_Jurusan/tbl_Jurusan_tbl_Otomotif" />
+      <nodes>
+        <classShapeMoniker Id="0fcdf8c6-5b28-48f5-9107-7730bbc29f32" />
+        <classShapeMoniker Id="bbda0746-91ef-43af-a436-6dfa3b2c33f2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.25 : 4.38544840494792); (14.3229166666667 : 4.38544840494792 : JumpStart); (14.4895833333333 : 4.38544840494792 : JumpEnd); (15 : 4.38544840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SMKDBDataContext/tbl_CalonSiswa/tbl_CalonSiswa_tbl_Pilihan" />
+      <nodes>
+        <classShapeMoniker Id="1857eb94-0615-4278-ad03-2170fd50d2b2" />
+        <classShapeMoniker Id="c4e4ee44-db3c-4f07-919e-45f4f7b04e5e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 5.77089680989583); (1.75 : 7.50084554036458); (3.5 : 7.50084554036458)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SMKDBDataContext/tbl_Jurusan/tbl_Jurusan_tbl_Rpl" />
+      <nodes>
+        <classShapeMoniker Id="0fcdf8c6-5b28-48f5-9107-7730bbc29f32" />
+        <classShapeMoniker Id="1b525bd4-d973-4299-b0f1-0a3d53636882" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.5 : 1.82097295898437); (13.1666666666667 : 1.82097295898437 : JumpStart); (13.3333333333333 : 1.82097295898437 : JumpEnd); (14.40625 : 1.82097295898437); (14.40625 : 6.875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SMKDBDataContext/tbl_Jawaban/tbl_Jawaban_tbl_Ruangan" />
+      <nodes>
+        <classShapeMoniker Id="6dc40198-3bb0-4864-a227-6b40e84b02ea" />
+        <classShapeMoniker Id="596630f2-f65c-4b12-a053-249c3864f24c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.75 : 5.97199625651042); (9.5 : 5.97199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SMKDBDataContext/tbl_Soal/tbl_Soal_tbl_Jadwal" />
+      <nodes>
+        <classShapeMoniker Id="9d44bf75-c2a4-43db-a8e6-15629c736e39" />
+        <classShapeMoniker Id="6c27d337-9efa-4200-aa91-f99d57885bdb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.75 : 5); (7.75 : 4.47199625651042); (9.5 : 4.47199625651042)]" fixedFrom="Algorithm" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SMKDBDataContext/tbl_Soal/tbl_Soal_tbl_Nilai" />
+      <nodes>
+        <classShapeMoniker Id="9d44bf75-c2a4-43db-a8e6-15629c736e39" />
+        <classShapeMoniker Id="f95c242d-68ed-4d5a-bc53-fc15212b7969" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.75 : 6.19399251302083); (7.75 : 7.88304668880208); (12.5 : 7.88304668880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SMKDBDataContext/tbl_Soal/tbl_Soal_tbl_Ruangan" />
+      <nodes>
+        <classShapeMoniker Id="9d44bf75-c2a4-43db-a8e6-15629c736e39" />
+        <classShapeMoniker Id="596630f2-f65c-4b12-a053-249c3864f24c" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

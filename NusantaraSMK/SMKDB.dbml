@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="NusantaraSMKDB" Class="SMKDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-D9NU0BV\SQLExpress;Initial Catalog=NusantaraSMKDB;Integrated Security=True" SettingsObjectName="NusantaraSMK.Properties.Settings" SettingsPropertyName="NusantaraSMKDBConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tbl_Animasi" Member="tbl_Animasis">
+    <Type Name="tbl_Animasi">
+      <Column Name="kode_jurusan" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="tbl_Jurusan_tbl_Animasi" Member="tbl_Jurusan" ThisKey="kode_jurusan" OtherKey="kode_jurusan" Type="tbl_Jurusan" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_Tkj" Member="tbl_Tkjs">
+    <Type Name="tbl_Tkj">
+      <Column Name="kode_jurusan" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="tbl_Jurusan_tbl_Tkj" Member="tbl_Jurusan" ThisKey="kode_jurusan" OtherKey="kode_jurusan" Type="tbl_Jurusan" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_CalonSiswa" Member="tbl_CalonSiswas">
+    <Type Name="tbl_CalonSiswa">
+      <Column Name="no_pendaftaran" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="password" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="nama" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="tgl_lahir" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="alamat" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="agama" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="jenis_kelamin" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="asal_sekolah" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="kode_nilai" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="kode_jawaban" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="tbl_CalonSiswa_tbl_Pilihan" Member="tbl_Pilihans" ThisKey="no_pendaftaran" OtherKey="no_pendaftaran" Type="tbl_Pilihan" />
+      <Association Name="tbl_Jawaban_tbl_CalonSiswa" Member="tbl_Jawaban" ThisKey="kode_jawaban" OtherKey="kode_jawaban" Type="tbl_Jawaban" IsForeignKey="true" DeleteRule="CASCADE" />
+      <Association Name="tbl_Nilai_tbl_CalonSiswa" Member="tbl_Nilai" ThisKey="kode_nilai" OtherKey="kode_nilai" Type="tbl_Nilai" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_Guru" Member="tbl_Gurus">
+    <Type Name="tbl_Guru">
+      <Column Name="nip" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_Informasi" Member="tbl_Informasis">
+    <Type Name="tbl_Informasi">
+      <Column Name="kode_informasi" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="judul" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="isi" Type="System.String" DbType="VarChar(1000) NOT NULL" CanBeNull="false" />
+      <Column Name="tanggal" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="nip" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_Jadwal" Member="tbl_Jadwals">
+    <Type Name="tbl_Jadwal">
+      <Column Name="kode_jadwal" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="kode_soal" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tanggal" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="nip" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="tbl_Soal_tbl_Jadwal" Member="tbl_Soal" ThisKey="kode_soal" OtherKey="kode_soal" Type="tbl_Soal" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_Jawaban" Member="tbl_Jawabans">
+    <Type Name="tbl_Jawaban">
+      <Column Name="kode_jawaban" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="file_jawaban" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="kode_soal" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="tbl_Jawaban_tbl_CalonSiswa" Member="tbl_CalonSiswas" ThisKey="kode_jawaban" OtherKey="kode_jawaban" Type="tbl_CalonSiswa" />
+      <Association Name="tbl_Jawaban_tbl_Ruangan" Member="tbl_Ruangans" ThisKey="kode_jawaban" OtherKey="kode_jadwal" Type="tbl_Ruangan" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_Jurusan" Member="tbl_Jurusans">
+    <Type Name="tbl_Jurusan">
+      <Column Name="kode_jurusan" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nama_jurusan" Type="System.String" DbType="Char(20) NOT NULL" CanBeNull="false" />
+      <Column Name="deskripsi_jurusan" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="kapasitas" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="foto_jurusan" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Association Name="tbl_Jurusan_tbl_Animasi" Member="tbl_Animasi" ThisKey="kode_jurusan" OtherKey="kode_jurusan" Type="tbl_Animasi" Cardinality="One" />
+      <Association Name="tbl_Jurusan_tbl_Tkj" Member="tbl_Tkj" ThisKey="kode_jurusan" OtherKey="kode_jurusan" Type="tbl_Tkj" Cardinality="One" />
+      <Association Name="tbl_Jurusan_tbl_Otomotif" Member="tbl_Otomotif" ThisKey="kode_jurusan" OtherKey="kode_jurusan" Type="tbl_Otomotif" Cardinality="One" />
+      <Association Name="tbl_Jurusan_tbl_Rpl" Member="tbl_Rpl" ThisKey="kode_jurusan" OtherKey="kode_jurusan" Type="tbl_Rpl" Cardinality="One" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_Nilai" Member="tbl_Nilais">
+    <Type Name="tbl_Nilai">
+      <Column Name="kode_nilai" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="kode_soal" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="tbl_Nilai_tbl_CalonSiswa" Member="tbl_CalonSiswas" ThisKey="kode_nilai" OtherKey="kode_nilai" Type="tbl_CalonSiswa" />
+      <Association Name="tbl_Soal_tbl_Nilai" Member="tbl_Soal" ThisKey="kode_soal" OtherKey="kode_soal" Type="tbl_Soal" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_Otomotif" Member="tbl_Otomotifs">
+    <Type Name="tbl_Otomotif">
+      <Column Name="kode_jurusan" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="tbl_Jurusan_tbl_Otomotif" Member="tbl_Jurusan" ThisKey="kode_jurusan" OtherKey="kode_jurusan" Type="tbl_Jurusan" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_Pilihan" Member="tbl_Pilihans">
+    <Type Name="tbl_Pilihan">
+      <Column Name="kode_pilihan" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="no_pendaftaran" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="prioritas1" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="prioritas2" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="prioritas3" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="tbl_CalonSiswa_tbl_Pilihan" Member="tbl_CalonSiswa" ThisKey="no_pendaftaran" OtherKey="no_pendaftaran" Type="tbl_CalonSiswa" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_Rpl" Member="tbl_Rpls">
+    <Type Name="tbl_Rpl">
+      <Column Name="kode_jurusan" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="tbl_Jurusan_tbl_Rpl" Member="tbl_Jurusan" ThisKey="kode_jurusan" OtherKey="kode_jurusan" Type="tbl_Jurusan" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_Ruangan" Member="tbl_Ruangans">
+    <Type Name="tbl_Ruangan">
+      <Column Name="kode_ruangan" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="kode_jadwal" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="kode_soal" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="kapasitas" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="tbl_Jawaban_tbl_Ruangan" Member="tbl_Jawaban" ThisKey="kode_jadwal" OtherKey="kode_jawaban" Type="tbl_Jawaban" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="tbl_Soal_tbl_Ruangan" Member="tbl_Soal" ThisKey="kode_soal" OtherKey="kode_soal" Type="tbl_Soal" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_Soal" Member="tbl_Soals">
+    <Type Name="tbl_Soal">
+      <Column Name="kode_soal" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="file_soal" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Association Name="tbl_Soal_tbl_Jadwal" Member="tbl_Jadwals" ThisKey="kode_soal" OtherKey="kode_soal" Type="tbl_Jadwal" />
+      <Association Name="tbl_Soal_tbl_Nilai" Member="tbl_Nilais" ThisKey="kode_soal" OtherKey="kode_soal" Type="tbl_Nilai" />
+      <Association Name="tbl_Soal_tbl_Ruangan" Member="tbl_Ruangans" ThisKey="kode_soal" OtherKey="kode_soal" Type="tbl_Ruangan" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_Staf" Member="tbl_Stafs">
+    <Type Name="tbl_Staf">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="kode_karyawan" Type="System.String" DbType="VarChar(9)" IsDbGenerated="true" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="nip" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="password" Type="System.String" DbType="Char(50) NOT NULL" CanBeNull="false" />
+      <Column Name="nama" Type="System.String" DbType="Char(50) NOT NULL" CanBeNull="false" />
+      <Column Name="tgl_lahir" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="alamat" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="agama" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="Char(100) NOT NULL" CanBeNull="false" />
+      <Column Name="jenis_kelamin" Type="System.String" DbType="Char(10) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_Staf_Tu" Member="tbl_Staf_Tus">
+    <Type Name="tbl_Staf_Tu">
+      <Column Name="nip" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,46 @@
+c:\users\no characters\documents\visual studio 2013\Projects\NusantaraSMK\NusantaraSMK\bin\Debug\NusantaraSMK.exe.config
+c:\users\no characters\documents\visual studio 2013\Projects\NusantaraSMK\NusantaraSMK\bin\Debug\NusantaraSMK.exe
+c:\users\no characters\documents\visual studio 2013\Projects\NusantaraSMK\NusantaraSMK\bin\Debug\NusantaraSMK.pdb
+c:\users\no characters\documents\visual studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.csprojResolveAssemblyReference.cache
+c:\users\no characters\documents\visual studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.MainForm.resources
+c:\users\no characters\documents\visual studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.Properties.Resources.resources
+c:\users\no characters\documents\visual studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.csproj.GenerateResource.Cache
+c:\users\no characters\documents\visual studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.exe
+c:\users\no characters\documents\visual studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.pdb
+c:\users\no characters\documents\visual studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.InformationForm.resources
+c:\users\no characters\documents\visual studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.JurusanForm.resources
+c:\users\no characters\documents\visual studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.RegistrationConfirmForm.resources
+C:\Users\No Characters\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.EmployeeManagementForm.resources
+C:\Users\No Characters\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.ExamEvalutionForm.resources
+C:\Users\No Characters\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.ExamManagementForm.resources
+C:\Users\No Characters\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.LoginForm.resources
+C:\Users\No Characters\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.RegistrationForm.resources
+C:\Users\No Characters\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.StaffNavigationForm.resources
+C:\Users\No Characters\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.StudentManagementForm.resources
+C:\Users\No Characters\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.StudentNavigationForm.resources
+C:\Users\No Characters\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.TeacherNavigationForm.resources
+C:\Users\HOME\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\bin\Debug\NusantaraSMK.exe
+C:\Users\No Characters\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\bin\Debug\photos\animasi.jpg
+C:\Users\No Characters\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\bin\Debug\photos\dscn0461.jpg
+C:\Users\HOME\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\bin\Debug\photos\animasi.jpg
+C:\Users\HOME\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\bin\Debug\photos\dscn0461.jpg
+C:\Users\HOME\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\bin\Debug\NusantaraSMK.exe.config
+C:\Users\HOME\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.EmployeeManagementForm.resources
+C:\Users\HOME\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.ExamEvalutionForm.resources
+C:\Users\HOME\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.ExamManagementForm.resources
+C:\Users\HOME\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.InformationForm.resources
+C:\Users\HOME\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.JurusanForm.resources
+C:\Users\HOME\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.LoginForm.resources
+C:\Users\HOME\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.MainForm.resources
+C:\Users\HOME\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.RegistrationForm.resources
+C:\Users\HOME\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.Properties.Resources.resources
+C:\Users\HOME\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.RegistrationConfirmForm.resources
+C:\Users\HOME\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.StaffNavigationForm.resources
+C:\Users\HOME\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.StudentManagementForm.resources
+C:\Users\HOME\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.StudentNavigationForm.resources
+C:\Users\HOME\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.TeacherNavigationForm.resources
+C:\Users\HOME\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.csproj.GenerateResource.Cache
+C:\Users\HOME\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.exe
+C:\Users\HOME\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.pdb
+C:\Users\HOME\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\obj\Debug\NusantaraSMK.csprojResolveAssemblyReference.cache
+C:\Users\HOME\Documents\Visual Studio 2013\Projects\NusantaraSMK\NusantaraSMK\bin\Debug\NusantaraSMK.pdb
